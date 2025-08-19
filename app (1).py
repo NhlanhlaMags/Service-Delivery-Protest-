@@ -22,8 +22,8 @@ PROVINCES = [
 @st.cache_resource
 def load_model():
     #Load the trained model pipeline
-    model_path = "/content/protest_risk_model.pkl"
-    return joblib.load(model_path, mode = 'rb')
+    with open(model_path, 'rb' as f:
+        return pickle.load(f)
 
 model = load_model()
 

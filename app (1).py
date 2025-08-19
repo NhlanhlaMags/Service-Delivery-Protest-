@@ -196,7 +196,3 @@ with tab2:
 
 # Footer
 st.markdown("---")
-st.caption("
-Protest Risk Prediction Model v1.0
-Data sources: Census, Municipal Reports
-")

@@ -43,9 +43,7 @@ def validate_inputs(df):
 
 # App layout
 st.title("🇿🇦 South African Municipal Protest Risk Predictor")
-st.markdown("
-This tool assesses protest risk probability based on municipal characteristics.
-")
+
 
 tab1, tab2 = st.tabs(["Single Municipality", "Batch Processing"])
 

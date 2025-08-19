@@ -22,7 +22,7 @@ PROVINCES = [
 @st.cache_resource
 def load_model():
     #Load the trained model pipeline
-    with open(model_path, 'rb' as f:
+    with open(model_path, 'rb') as f:
         return pickle.load(f)
 
 model = load_model()
